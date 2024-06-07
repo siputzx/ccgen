@@ -1,0 +1,315 @@
+.nav-cstm {
+	color: grey;
+}
+
+.container {
+	max-width: 1302px !important;
+}
+
+body {
+	font-family: 'Gudea', sans-serif;
+}
+
+.verified-badge {
+	color: #00b7ff; 
+	vertical-align: middle;
+}
+
+.ban-wrapper {
+	margin: 0 auto;
+}
+
+.topnav-logo::after {
+	content: url('../santa_hat.html');
+	width: 36px;
+	height: 26px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	margin-left: -13px;
+}
+
+.grecaptcha-badge {
+	z-index: 300000000000;
+}
+
+.progress-bar {
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 207, 255), rgb(0, 138, 255)) repeat scroll 0% 0%;
+  height: 3px;
+  z-index: 3000000000000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+#iframe {
+	resize: none;
+}
+
+.discord {
+	color: #7289DA;
+}
+
+.social-link {
+	padding: 0 5px;
+}
+
+.twitter {
+	color: #1DA1F2;
+}
+
+.facebook {
+	color: #4267B2;
+}
+
+.pre-code {
+	margin-bottom: 0;
+}
+
+.btn-avatar-upload {
+	margin-left: 10px;
+	margin-bottom: 0;
+	bottom: 0;
+}
+
+.img-profile {
+	height: 80px;
+}
+
+.force-parent-lh {
+  line-height: inherit !important;
+}
+
+.fa-heart-lk {
+	font-size: 1.43333em;
+	line-height: 1em;
+}
+
+.button-like:focus {
+	box-shadow: none;
+}
+
+#channels {
+	margin-top: 30px;
+}
+
+code {
+	font-family: Open Sans,sans-serif !important;
+}
+
+.text-404 {
+	color: #44badc;
+}
+
+.mgl-20 {
+	margin-left: 20px;
+}
+
+.img-ava {
+	min-width: 80px;
+	width: 80px;
+	max-width: 80px;
+	height: 80px;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	color: #444;
+	max-height: 100%;
+	margin: 0px;
+	border: none;
+	font-size: 12px;
+}
+
+td.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: center;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 5px !important;
+  /* your custom style here */
+}
+
+/* for block of code */
+td.hljs-ln-code {
+  padding-left: 10px !important;
+}
+
+pre, code {
+	overflow: auto;
+	width: 100%;
+}
+
+.user-info-head {
+	margin: 0;
+}
+
+.user-info {
+	margin-bottom: 15px;
+}
+
+.navbar-fixed {
+	width: 100%;
+	position: fixed;
+	z-index: 100000;
+}
+
+.card-pricing-features {
+	text-align: left;
+}
+
+.card-pricing-features > li::before {
+	content: "•"; 
+	color: #44badc;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}
+
+.pro-title {
+	font-size: 72px;
+	background: -webkit-linear-gradient(#44badc, #007bff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.faq-question-q-box {
+	background-color: #44badc;
+}
+
+.topnav-navbar .topnav-logo {
+    line-height: 69px;
+}
+
+.subscription-active {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.topnav-logo-sm {
+	line-height: 69px;
+}
+
+.nav-btn {
+	padding: calc(36px / 2) 0;
+} 
+
+.nav-btn-pro {
+	padding: calc(38px / 2) 0;
+}
+
+.heart {
+	color: red;
+	font-size: 11px;
+}
+
+@media (max-width: 991.98px) {
+	.page-content {
+		padding-top: 90px !important;
+	}
+}
+
+.page-content {
+	padding-top: 90px;
+	margin-bottom: 75px;
+}
+
+.col-info-text {
+	color: #555;
+}
+
+.timeline-recent {
+	padding-top: 0px;
+}
+
+.nav-cstm:hover {
+	color: grey;
+}
+
+.user-info-head {
+	color: #919ca7;
+}
+
+.user-info-head:hover {
+	color: #919ca7;
+}
+
+.col-user-count h3 {
+	margin-bottom: 5px;
+}
+
+.--icon-like {
+    color: red;
+}
+
+.button-like:hover i {
+    color: red;
+}
+
+.col-user-count {
+    text-align: center;
+}
+
+.selectexp > .dropdown-menu {
+	z-index: 100001;
+}
+
+.selectsyn > .dropdown-menu {
+	z-index: 100001;
+}
+
+.content-footer {
+	z-index: 100000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	overflow: hidden;
+	height: 44px;
+	border-top: 1px solid #eee;
+	font-size: 14px;
+	background-color: #f8f9fa;
+	padding: 12px 15px;
+}
+
+.fs-60 {
+	font-size: 50px;
+}
+
+.pdt-30 {
+	padding-top: 30px;
+}
+
+#channels .row {
+	margin: 0 auto;
+}
+
+.mgt-50 {
+	margin-top: 80px !important;
+}
+
+#paste-textarea {
+	height: 550px;
+}
+
+.tray-text {
+	resize: none;
+}
+
+.cp{
+	cursor: pointer;
+}
+
+h1,h2,h3,h4,h5{ word-break: break-all !important; }
+.toolbar{
+	display: none !important;
+}
